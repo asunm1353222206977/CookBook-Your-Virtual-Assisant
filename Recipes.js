@@ -1,0 +1,80 @@
+const recipes = [
+    {
+      id: 1,
+      name: "Chicken Biryani",
+      image: "https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.webp?a=1&b=1&s=612x612&w=0&k=20&c=a8j_p9BkWtsSX7WkcqeetigH8PYWXGayIGto9GiehNY=",
+      ingredients: [
+        "2 cups Basmati Rice",
+        "500g Chicken",
+        "2 Onions (sliced)",
+        "2 Tomatoes (chopped)",
+        "2 tbsp Biryani Masala",
+        "1 cup Yogurt",
+        "Saffron & Ghee",
+      ],
+      instructions: "Marinate chicken, cook with spices, layer with rice, and steam cook.",
+      youtubeLink:"https://youtu.be/95BCU1n268w?si=TDWrNIXUEuvOgrZk",
+    },
+    {
+      id: 2,
+      name: "Paneer Butter Masala",
+      image: "https://media.istockphoto.com/id/1305516669/photo/shahi-paneer-or-paneer-kadai.webp?a=1&b=1&s=612x612&w=0&k=20&c=6FZjTED4AMVhUlQ6-fM__MMSds-h18jj7qFuZRKqFsk=",
+      ingredients: [
+        "200g Paneer",
+        "2 Tomatoes (pureed)",
+        "1 Onion (chopped)",
+        "2 tbsp Butter",
+        "1/2 cup Fresh Cream",
+        "1 tbsp Garam Masala",
+      ],
+      instructions: "Sauté onions, add tomato puree, spices, paneer, and finish with cream.",
+      youtubeLink:"https://youtu.be/U1LVDFwi8qI?si=_ZETrdhMdCTbCYFr",
+    },
+    {
+      id: 3,
+      name: "Masala Dosa",
+      image: "https://ranveerbrar.com/wp-content/uploads/2021/02/Masala-dosa-scaled.jpg",
+      ingredients: [
+        "2 cups Rice",
+        "1 cup Urad Dal",
+        "2 Potatoes (boiled & mashed)",
+        "1 Onion (chopped)",
+        "1 tsp Mustard Seeds",
+        "Curry Leaves & Turmeric",
+      ],
+      instructions: "Ferment batter, spread on pan, fill with potato masala, and serve.",
+        youtubeLink:"https://youtu.be/IDNtiYTd7_M?si=fgvjws5lJm4fBHTp",
+    },
+    {
+      id: 4,
+      name: "Butter Chicken",
+      image: "https://tse3.mm.bing.net/th?id=OIP.aLqlPEGwir9UYZJiqsuCSAHaHa&pid=Api&P=0&h=180",
+      ingredients: [
+        "500g Chicken",
+        "2 Tomatoes (pureed)",
+        "1 Onion (chopped)",
+        "2 tbsp Butter",
+        "1/2 cup Fresh Cream",
+        "1 tbsp Garam Masala",
+      ],
+      instructions: "Cook chicken, add tomato puree, spices, butter, and finish with cream.",
+        youtubeLink:"https://youtu.be/a03U45jFxOI?si=FZBd8gcv9imUkEIP",
+    },
+    {
+      id: 5,
+      name: "Gulab Jamun",
+      image: "https://media.istockphoto.com/id/1216442934/photo/gulab-jamun-traditional-indian-sweets-on-a-black-table.webp?a=1&b=1&s=612x612&w=0&k=20&c=bhT6qvqpwObfbrlVBlTH1zFlSiP8TPaDyD0h_dFEijU=",
+      ingredients: [
+        "1 cup Khoya",
+        "1/4 cup Maida (flour)",
+        "1/2 tsp Baking Powder",
+        "Sugar Syrup",
+        "Ghee (for frying)",
+      ],
+      instructions: "Make dough, roll into balls, deep fry, soak in sugar syrup.",
+        youtubeLink:"https://youtu.be/folNs-_sUNE?si=4cV2oCuo4UAiiWL3",
+    },
+  ];
+  
+  export default recipes;
+  
